@@ -1,4 +1,4 @@
-cordova.define("com.berheley.main.plugins.PushNotification.PushNotification", function(require, exports, module) { 
+
 	var exec = require("cordova/exec");
 	function PushNotification() {}
 
@@ -58,4 +58,3 @@ cordova.define("com.berheley.main.plugins.PushNotification.PushNotification", fu
 	});
 	
 	module.exports = new PushNotification();
-});
